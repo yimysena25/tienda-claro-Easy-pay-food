@@ -1,0 +1,647 @@
+
+body {
+    overflow: auto;
+}
+
+#celulares {
+    margin-bottom: 3%;
+}
+
+#Catalogo1 {
+    margin-top: 3%;
+}
+
+#celulares .cont-center {
+    margin: 0 auto;
+    margin: 0 50px ;
+    
+}
+ 
+#celulares h2{
+    margin-top:3%;
+    font-size: 25px;
+    font-weight: 200;
+}
+
+#celulares h2 a {
+    font-size: 14px;
+}
+
+#celulares1 {
+    margin-top: -2%;
+}
+
+#celulares .iconos{
+    background:rgb(209, 206, 206);
+    
+}
+#celulares .iconos img{
+    max-width: 30px;
+    width:20%;
+}
+
+#celulares .iconos h5{
+font-size:15px;
+width:80%;
+float: right;
+}
+#celulares .iconos a{
+    font-size:15px;
+    width:80%;
+    float: right;
+    
+   }
+#celulares .iconos a::after{
+    content: ">";
+    background: #0097AB;
+    color: #FFF;
+    width: 12px;
+    height: 12px;
+    border-radius:50%;
+    margin-left:8px;
+    
+   
+}
+#celulares .uno{
+    margin-top:50px;
+    max-width:305px;
+    height:350px;
+    background:url(../img/fondo.jpg);
+    position:relative;
+}
+
+
+#celulares .uno img{
+    width:42%;
+    right:0%;
+    padding-bottom: 40px;
+    padding-top:40px ;
+    position: absolute;
+     
+}
+
+
+/* iconos agregados */
+#celulares .uno .vector{
+max-width:35px;
+left: 5%;
+bottom:2%;
+}
+
+#celulares .dos .vector2{
+max-width:30px;
+left:30%;
+top:63%;  
+ 
+}
+
+#celulares .movil .vector3{
+ max-width:35px;
+ left:42%;
+ top:70%;    
+}
+
+
+#celulares  .uno .cont-text {
+  width:65%;
+  margin-top:25%;
+  background: #b0253c;
+  border:3px solid white;
+  float: left;
+  border-radius: 5px 5px 5px 5px; 
+  padding:25px 5px;
+} 
+
+#celulares  .uno .cont-text h4{
+    color: white;
+    padding:0 20px;
+    font-size:18px ;
+}
+#celulares  .uno .cont-text h5{
+    color: white;
+    padding:0 20px;
+    font-size:13px ;
+}
+
+
+#celulares  .uno .cont-text h6{
+    color: white;
+    padding:0 20px;
+    font-size:26px ;
+    }
+#celulares .uno .cont-text h5::before{
+        position: absolute;
+        content: " ";
+        width: 125px;
+        height:2px;
+        background:white;
+        bottom:58%;
+} 
+#celulares .uno p{
+    top:92%;
+    font-weight: bold;
+    position: absolute;
+    font-size:10px;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+/*texto descripcion */
+#celulares .uno .cont-descripcion{
+    max-width:80px;
+    position: absolute;
+    top:80%; 
+    left:25%; 
+    
+}
+#celulares .uno .cont-descripcion h3{
+    font-size:10px;
+    font-weight: bold;
+    
+}
+
+#celulares .movil .cont-descripcion{
+    max-width:80px;
+    position: absolute;
+    top:80%; 
+    left:55%; 
+    
+}
+#celulares .movil .cont-descripcion h3{
+    font-size:10px;
+    font-weight: bold;
+}
+
+#celulares .dos .cont-descripcion{
+    max-width:80px;
+    position: absolute;
+    top:75%; 
+    left:38%; 
+    
+}
+#celulares .dos .cont-descripcion h3{
+    font-size:10px;
+    font-weight: bold;
+}
+/*  parte 2 */
+
+#celulares .movil{
+    margin-top:50px;
+    max-width:305px;
+    height:350px;
+    background:url(../img/fondo.jpg);
+    position:relative;
+}
+#celulares .movil p{
+    top: 92%;
+    font-weight: bold;
+    position: absolute;
+    font-size:10px;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+#celulares .margen{
+    margin-left:19px;
+}
+#celulares .movil img{
+    width:42%;
+    left: 0;
+    right: 0;
+    padding-bottom: 40px;
+    padding-top:40px ;
+    position: absolute;
+   
+    
+}
+#celulares  .movil .cont-text {
+  width:65%;
+  margin-top:30%;
+  background:#b0253c;
+  border:3px solid white;
+  float: right;
+  border-radius: 5px 5px 5px 5px;
+  padding:25px 0;
+
+} 
+
+#celulares  .movil .cont-text h4{
+    color: white;
+    padding:0 20px;
+    font-size:18px ;
+}
+#celulares  .movil .cont-text h5{
+    color: white;
+    padding:0 20px;
+    font-size:13px ;
+}
+
+
+#celulares  .movil .cont-text h6{
+    color: white;
+    padding:0 20px;
+    font-size:26px ;
+    }
+#celulares .movil .cont-text h5::before{
+        position: absolute;
+        content: " ";
+        width: 125px;
+        height:2px;
+        background:white;
+        bottom:55%;
+} 
+
+#celulares .dos{
+    max-width: 629px;
+    height: 350px;
+    margin-top:50px;
+    background:url(../img/fondo.jpg);
+    position: relative;   
+}
+
+#celulares .dos img{
+    width:22%;
+    left:8%;
+    right: 0;
+    padding-bottom: 40px;
+    padding-top:35px ;
+    position: absolute;
+    
+}
+
+#celulares .dos .cont-text{
+    max-width:300px;
+    width:68%;
+    /* height:200px; */
+    margin-top:12%;
+    margin-left:26%;
+    background:#65a3ba ;
+    border:3px solid white;
+    border-radius: 5px 5px 5px 5px;
+    padding:25px 0;
+}
+#celulares  .dos .cont-text h4{
+    color: white;
+    padding:0 22px;
+    font-size:18px ;
+}
+#celulares  .dos .cont-text h5{
+    color: white;
+    padding:0 22px;
+    font-size:13px ;
+}
+
+
+#celulares  .dos .cont-text h6{
+    color: white;
+    padding:0 25px;
+    font-size:26px ;
+    }
+#celulares .dos .cont-text h5::before{
+        position: absolute;
+        content: " ";
+        width: 125px;
+        height:2px;
+        background:white;
+        bottom:58%;
+} 
+
+#celulares .dos p{
+    top: 92%;
+    font-weight: bold;
+    position: absolute;
+    font-size:10px;
+    left: 0;
+    right: 0;
+    text-align: center;  
+}
+
+/* modales */
+#medio-pago .modal-body  .cont-img{
+background: white;
+margin-top:12px;
+}
+#medio-pago .modal-body  .cont-text{
+background: #0097AB;
+height:90px;    
+}
+
+
+.modal-body .cont-text{
+    background: #1f97ae ;
+    height:50px;
+}
+.modal-body  img{
+    max-width:50px;
+}
+.modal-body h3{
+font-size:15px;
+padding:20px 10px 20px 10px;
+color: white;
+margin-bottom:10px;
+}
+.modal-body h4{
+    font-size:15px;
+}
+
+.modal-body .cont-dos  img{
+width:20%;
+}
+
+.modal-body .cont-dos h4{
+width:80%;
+float: right;
+}
+/* Responsive -------------------*/
+@media (min-width: 768px) and (max-width: 990px){
+    Body{
+        padding-bottom: 36%;
+    }
+    #celulares .iconos {
+        background: white;
+    }
+    #Catalogo1 {
+        position: fixed;
+        background: #FFF;
+        border-radius: 0;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        z-index: 2;
+        margin: 0;
+        padding: 12px 0 0;
+        box-shadow: 5px 5px 5px 5px rgba(50,50,50,0.5);
+        text-align: center;
+    }
+    #Catalogo1 a{
+        display: none;
+    }
+
+#celulares .uno img {
+    width: 43%;
+    right: 0%;}
+    #celulares1{
+        display: block;
+    }
+    #celulares .dos img {
+        width: 22%;
+        left: 12%;
+        right: 0;
+        top: 19px}
+        #celulares .dos .vector2 {
+            max-width: 30px;
+            left: 51%;
+            top: 73%;}
+    
+#celulares2  .uno{
+    flex: -1;
+}
+#celulares .dos .cont-text{
+    display: inline-grid;
+    margin-left: 30% !important;
+    margin-top: 12%;
+}
+
+#celulares .col-md-3 {
+ flex:42% !important;
+ margin-left:3%
+}
+#celulares3  {
+    display: block;
+}
+#celulares3 .dos {
+    margin-left:18px;
+}
+
+#celulares .iconos img {
+    max-width: 28px;
+    width: 21%;
+    margin-left: 12px;
+}
+}
+@media (min-width: 521px) and (max-width: 768px) {
+ #celulares .uno{
+    max-width: 372px;
+    height: 271px;
+    margin-left:20px;
+}
+#celulares .dos{
+    margin-left:19px;
+}
+body{
+    padding-bottom: 19%;
+}
+#celulares .iconos h5 {
+    font-size: 10px;
+    width: 95%;
+    float: right;
+}
+#celulares .iconos a{
+    display: none;
+}
+#celulares .iconos img {
+    max-width: 34px;
+    width: 35%;
+}
+#celulares .iconos{
+    background: white;
+}
+#Catalogo1 {
+    background:white;
+    box-shadow: 4px 4px;
+    padding: 12px 0 0;
+    left: 0;
+    border-radius: 0;
+    bottom: 0;
+    position: fixed;
+    z-index: 2000;
+    border-top-width: 0px;
+    margin: 0;
+    width: 100%;
+    text-align: center;
+    
+}
+#celulares .uno img {
+    width: 27%;
+    right: 13%;
+}
+#celulares .uno p{
+    top:94%;
+    right: 103px;
+}
+#celulares .uno .cont-text h5{
+    font-size: 9px;
+}
+#celulares .movil .cont-text h5{
+    font-size: 8px;
+}
+#celulares .dos .cont-text{
+    margin-left:29% !important;
+}
+#celulares .uno .cont-descripcion h3{
+    text-align:center;
+}
+#celulares .uno .cont-text{
+    margin-top:18%;
+    height: 58%;
+}
+#celulares .movil .cont-text{
+    width:66% !important;
+    height:158px;
+}
+#celulares .movil .cont-descripcion h3{
+    padding-top:6px;
+}
+#celulares .uno .vector{
+    top: 171px;
+    left: 13%;
+}
+#celulares .dos .vector2{
+    left:59% !important;
+    top: 72%;
+}
+
+ #celulares .dos .cont-descripcion h3 {
+    font-size: 8px;
+    font-weight: bold;
+    margin-top: 22px;
+}
+#celulares .dos .vector2 {
+    max-width: 35px;
+    left: 56% !important;
+    top: 73% !important;
+}
+#celulares .movil{
+    max-width: 374px;
+    height: 275px;
+}
+#celulares .movil img {
+    width: 27%;
+    left:18px;
+}
+#celulares .movil .cont-text{
+    width:62%;
+    margin-right: 29px;
+    margin-top:16%;
+}
+#celulares .movil p{
+    top:94%;
+    left:38px;
+}
+}
+@media (min-width: 320px) and (max-width: 520px) {
+    Body{
+        padding-bottom: 36%;
+    }
+    #celulares .iconos {
+        background: #ffff;
+    }
+    #celulares .iconos h5 {
+        font-size: 7px;
+        width: 80%;
+        float: right;
+    }
+    #celulares .iconos img {
+        max-width: 37px;
+        width: 46%;
+        margin-left: 12px;
+    
+    }
+    #celulares .dos .cont-text {
+        max-width: 300px;
+        width: 68%;
+        height: 180px;
+        margin-top: 16%;
+        margin-left: 30%;
+        background:#65a3ba;
+        border: 3px solid white;
+        border-radius: 5px 5px 5px 5px;
+        padding: 25px 0;
+        max-height: 45%;
+    }   
+    #Catalogo1 {
+        box-shadow: 4px 4px;
+        padding: 12px 0 0;
+        left: 0;
+        border-radius: 0;
+        bottom: 0;
+        position: fixed;
+        z-index: 2;
+        border-top-width: 0px;
+        margin: 0;
+        width: 100%;
+        text-align: center;
+        
+    }
+    #Catalogo1 a{
+        display: none;
+    }
+    #celulares .dos{
+        margin-left: 19px;
+        max-width: 305px;
+        
+    }
+    #celulares .uno{
+        margin-left: 19px;
+    }
+    #celulares h3{
+        text-align: center;
+        
+    }
+    #celulares .uno .cont-text h6 {
+        color: white;
+        padding: 0 20px;
+        font-size: 13px;
+    }
+   
+
+#celulares .movil .cont-text h6 {
+    color: white;
+    padding: 0 20px;
+    font-size: 15px;
+}
+#celulares .uno .cont-text h5 {
+    color: white;
+    padding: 0 20px;
+    font-size: 11px;
+}
+#celulares .uno .cont-text h4 {
+    color: white;
+    padding: 0 20px;
+    font-size: 14px;
+}
+
+#celulares ::before {
+    margin-top: 5px;
+    width: 84px;
+    display: none;
+}
+#celulares .dos .vector2 {
+    max-width: 30px;
+    left: 20%;
+    top: 66%;
+}
+#celulares .movil .vector3 {
+    max-width: 35px;
+    left: 43%;
+    top: 63%;
+}
+#celulares .movil img{
+    padding-top: 61px;
+}
+#celulares .dos p {
+    top: 95%;
+}
+#celulares .dos .cont-text h6{
+        font-size: 19px;
+    }
+#celulares .dos .cont-text h4 {
+    font-size: 12px;
+}
+
+
+#celulares .dos img {
+    width: 31%;
+    left: 6%;
+}
+}
