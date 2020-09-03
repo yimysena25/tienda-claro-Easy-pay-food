@@ -1,0 +1,651 @@
+
+body {
+    overflow: auto;
+} 
+
+.textos-tecnologia a{
+    color: #008080;
+    font-size: 14px;
+}
+
+.textos-tecnologia p{
+    font-size: 25px;
+    color:#595656 ;
+    font-weight: 200;
+}
+
+.container-tv img{
+    width: 66%;
+}
+
+.container-tv .row .col-md{
+    background: #dedede;
+    margin: 1.5%;
+}
+
+
+.container-tv .row p{
+    position: absolute;
+    top: 21%;
+    left: 67%;
+    font-size: 15px;
+    color: #fff;
+    background: #171717;
+    height: 130px;
+    padding: 14px;
+    margin-right: 3%;
+    border: 2px solid #fff;
+    border-radius: 6%;
+}
+.container-tv .row h2{
+    position: absolute;
+    color: #fff;
+    top: 53%;
+    left: 70%;
+    font-size: 27px;
+}
+
+.container-tv .row h4{
+    color: #fff;
+    position: absolute;
+    top: 46%;
+    left: 68%;
+    font-size: 13px;
+    font-weight: 100;
+    border-top: 1px solid #fff;
+    width: 27%;
+}
+.container-tv .row .led p{
+    position: absolute;
+    top: 18%;
+    left: 52%;
+    font-size: 15px;
+    color: #fff;
+    background: #171717;
+    height: 142px;
+    padding: 14px;
+    margin-right: 3%;
+    border: 2px solid #fff;
+    border-radius: 6%;
+}
+
+.container-tv .row .led h4{
+    color: #fff;
+    position: absolute;
+    top: 46%;
+    left: 53%;
+    font-size: 13px;
+    font-weight: 100;
+    border-top: 1px solid #fff;
+    width: 42%;
+}
+.container-tv .row .led h2{
+    position: absolute;
+    color: #fff;
+    top: 55%;
+    left: 58%;
+    font-size: 30px;
+}
+.container-tv .row .led img{
+width: 49%;
+    margin-top: 3%;
+}
+
+
+
+.container-tv .tv:hover{
+    background: #a7a3a3;
+    opacity: 85%;
+    cursor: pointer;
+
+}
+
+.container-tv .led:hover{
+    background: #a7a3a3;
+    opacity: 85%;
+    cursor: pointer;
+
+}
+
+
+
+
+
+
+
+
+.reloj img{
+    width: 30%;
+    margin-left: 20%;
+}
+
+.reloj .row .col-md{
+    background: #dedede;
+    margin: 1.5%;
+}
+
+
+.reloj .row p{
+    position: absolute;
+    top: 21%;
+    left: 67%;
+    font-size: 15px;
+    color: #fff;
+    background: #171717;
+    height: 130px;
+    padding: 14px;
+    margin-right: 3%;
+    border: 2px solid #fff;
+    border-radius: 6%;
+}
+.reloj .row h2{
+    position: absolute;
+    color: #fff;
+    top: 53%;
+    left: 70%;
+    font-size: 27px;
+}
+
+.reloj .row h4{
+    color: #fff;
+    position: absolute;
+    top: 46%;
+    left: 68%;
+    font-size: 13px;
+    font-weight: 100;
+    border-top: 1px solid #fff;
+    width: 27%;
+}
+.reloj .row .led p{
+    position: absolute;
+    top: 18%;
+    left: 52%;
+    font-size: 15px;
+    color: #fff;
+    background: #171717;
+    height: 142px;
+    padding: 14px;
+    margin-right: 3%;
+    border: 2px solid #fff;
+    border-radius: 6%;
+}
+
+.reloj .row .led h4{
+    color: #fff;
+    position: absolute;
+    top: 46%;
+    left: 53%;
+    font-size: 13px;
+    font-weight: 100;
+    border-top: 1px solid #fff;
+    width: 42%;
+}
+.reloj .row .led h2{
+    position: absolute;
+    color: #fff;
+    top: 55%;
+    left: 58%;
+    font-size: 30px;
+}
+.reloj .row .led img{
+    width: 30%;
+    margin-left: 16%;
+}
+
+
+.reloj .xiaomi:hover{
+    background: #a7a3a3;
+    opacity: 85%;
+    cursor: pointer;
+}
+
+.reloj .led:hover{
+    background: #a7a3a3;
+    opacity: 85%;
+    cursor: pointer;
+
+}
+
+
+.textos-planes a{
+    color: #008080;
+    font-size: 14px;
+}
+
+.textos-planes p{
+    font-size: 25px;
+    color:#595656 ;
+    margin-top: 2%;
+    font-weight: 200;
+
+}
+
+#planes .container img{
+    width: 100%;
+}
+
+#planes .container img:hover{
+    background: #a7a3a3;
+    opacity: 85%;
+    cursor: pointer;
+}
+
+
+.textos-sim a{
+    color: #008080;
+    font-size: 14px;
+}
+
+.textos-sim p{
+    font-size: 25px;
+    color:#595656 ;
+    margin-top: 2%;
+    font-weight: 200;
+
+}
+
+
+ 
+
+#sim .container img{
+    width: 100%;
+}
+
+#sim img:hover{
+    background: #a7a3a3;
+    opacity: 75%;
+    cursor: pointer;
+}
+
+#sim .phone{
+    display: none;
+}
+
+/* RESPOSIVE TABLET */
+
+@media screen and (max-width:990px) and (min-width: 506px){
+    .container-tv .row p{
+        position: absolute;
+        top: 17%;
+        left: 67%;
+        font-size: 10px;
+        color: #fff;
+        background: #171717;
+        height: 100px;
+        padding: 14px;
+        margin-right: 3%;
+        border: 2px solid #fff;
+        border-radius: 6%;
+    }
+    .container-tv .row h4 {
+    color: #fff;
+    position: absolute;
+    top: 51%;
+    left: 54%;
+    font-size: 10px;
+    font-weight: 100;
+    border-top: 1px solid #fff;
+    width: 39%;
+}
+
+    .container-tv .row h2 {
+        position: absolute;
+        color: #fff;
+        top: 63%;
+        left: 70%;
+        font-size: 17px;
+    }
+
+
+
+/* LED */
+
+.container-tv .row .led p{
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    font-size: 9px;
+    color: #fff;
+    background: #171717;
+    height: 105px;
+    padding: 14px;
+    margin-right: 3%;
+    border: 2px solid #fff;
+    border-radius: 6%;
+}
+
+.container-tv .row .led h4{
+    color: #fff;
+    position: absolute;
+    top: 48%;
+    left: 54%;
+    font-size: 10px;
+    font-weight: 100;
+    border-top: 1px solid #fff;
+    width: 40%;
+}
+.container-tv .row .led h2{
+    position: absolute;
+    color: #fff;
+    top: 58%;
+    left: 59%;
+    font-size: 21px;
+}
+
+
+/* RELOJES */
+
+.reloj .row  p {
+    position: absolute;
+    top: 15%;
+    left: 51%;
+    font-size: 11px;
+    color: #fff;
+    background: #171717;
+    height: 104px;
+    padding: 14px;
+    margin-right: 3%;
+    border: 2px solid #fff;
+    border-radius: 6%;
+}
+.reloj .row h4 {
+color: #fff;
+    position: absolute;
+    top: 51%;
+    left: 54%;
+    font-size: 10px;
+    font-weight: 100;
+    border-top: 1px solid #fff;
+    width: 39%;
+}
+
+.reloj .row h2 {
+    position: absolute;
+    color: #fff;
+    top: 63%;
+    left: 58%;
+    font-size: 17px;
+}
+
+
+/* RELOJ 2 */
+
+.reloj .row .led p{
+position: absolute;
+top: 15%;
+left: 50%;
+font-size: 9px;
+color: #fff;
+background: #171717;
+height: 105px;
+padding: 14px;
+margin-right: 3%;
+border: 2px solid #fff;
+border-radius: 6%;
+}
+
+.reloj .row .led h4{
+color: #fff;
+position: absolute;
+top: 48%;
+left: 54%;
+font-size: 10px;
+font-weight: 100;
+border-top: 1px solid #fff;
+width: 40%;
+}
+.reloj .row .led h2{
+position: absolute;
+color: #fff;
+top: 58%;
+left: 59%;
+font-size: 21px;
+}
+   
+}
+
+/* RESPOSIVE PHONE */
+
+@media screen and (max-width:520px) and (min-width: 320px){
+    
+    .container-tv img{
+        width:54% ;
+    }
+
+    .container-tv .row p{
+        position: absolute;
+        top: 10%;
+        left: 60%;
+        font-size: 9px;
+        color: #fff;
+        background: #171717;
+        height: 85px;
+        padding: 11px;
+        margin-right: 3%;
+        border: 2px solid #fff;
+        border-radius: 6%;
+    }
+    .container-tv .row h4 {
+        color: #fff;
+        position: absolute;
+        top: 49%;
+        left: 63%;
+        font-size: 9px;
+        font-weight: 100;
+        border-top: 1px solid #fff;
+        width: 31%;
+    }
+
+    .container-tv .row h2 {
+        position: absolute;
+        color: #fff;
+        top: 62%;
+        left: 67%;
+        font-size: 15px;
+    }
+
+
+    /* LED */
+
+    .container-tv .row .led img {
+        width: 42%;
+        margin-top: 3%;
+        margin-bottom: 3%;
+    }
+
+    .container-tv .row .led p{
+        position: absolute;
+        top: 9%;
+        left: 47%;
+        font-size: 9px;
+        color: #fff;
+        background: #171717;
+        height: 93px;
+        padding: 14px;
+        margin-right: 3%;
+        border: 2px solid #fff;
+        border-radius: 6%;
+    }
+    
+    .container-tv .row .led h4{
+        color: #fff;
+        position: absolute;
+        top: 48%;
+        left: 51%;
+        font-size: 10px;
+        font-weight: 100;
+        border-top: 1px solid #fff;
+        width: 43%;
+    }
+    .container-tv .row .led h2{
+        position: absolute;
+        color: #fff;
+        top: 58%;
+        left: 55%;
+        font-size: 18px;
+    }
+
+    /* RELOJES */
+
+    .reloj img {
+        width: 30%;
+        margin-left: 16%;
+    }
+.reloj .row p{
+    position: absolute;
+    top: 11%;
+    left: 58%;
+    font-size: 9px;
+    color: #fff;
+    background: #171717;
+    height: 100px;
+    padding: 14px;
+    margin-right: 3%;
+    border: 2px solid #fff;
+    border-radius: 6%;
+}
+.reloj .row h4 {
+    color: #fff;
+    position: absolute;
+    top: 48%;
+    left: 61%;
+    font-size: 10px;
+    font-weight: 100;
+    border-top: 1px solid #fff;
+    width: 33%;
+}
+
+.reloj .row h2 {
+    position: absolute;
+    color: #fff;
+    top: 61%;
+    left: 65%;
+    font-size: 18px;
+}
+
+
+/* RELOJ 2 */
+
+.reloj .row .led p{
+position: absolute;
+top: 11%;
+left: 50%;
+font-size: 9px;
+color: #fff;
+background: #171717;
+height: 105px;
+padding: 14px;
+margin-right: 3%;
+border: 2px solid #fff;
+border-radius: 6%;
+}
+
+.reloj .row .led h4{
+color: #fff;
+position: absolute;
+top: 48%;
+left: 54%;
+font-size: 10px;
+font-weight: 100;
+border-top: 1px solid #fff;
+width: 40%;
+}
+.reloj .row .led h2{
+    position: absolute;
+    color: #fff;
+    top: 59%;
+    left: 57%;
+    font-size: 18px;
+}
+
+/* SIM */
+#sim .phone{
+    display: block;
+    margin-top: 5%;
+}
+#sim .pc{
+    display: none;
+}
+
+
+}
+
+@media screen and (max-width:506px) and (min-width: 425px){
+    .container-tv .row h4 {
+        color: #fff;
+        position: absolute;
+        top: 33%;
+        left: 63%;
+        font-size: 9px;
+        font-weight: 100;
+        border-top: 1px solid #fff;
+        width: 31%;
+    }
+    .container-tv .row h2 {
+        position: absolute;
+        color: #fff;
+        top: 44%;
+        left: 67%;
+        font-size: 15px;
+    }
+
+    .container-tv .row .led h4 {
+        color: #fff;
+        position: absolute;
+        top: 44%;
+        left: 51%;
+        font-size: 10px;
+        font-weight: 100;
+        border-top: 1px solid #fff;
+        width: 43%;
+    }
+    .container-tv .row .led h2 {
+        position: absolute;
+        color: #fff;
+        top: 53%;
+        left: 55%;
+        font-size: 18px;
+    }
+    .reloj .row h4 {
+        color: #fff;
+        position: absolute;
+        top: 40%;
+        left: 61%;
+        font-size: 10px;
+        font-weight: 100;
+        border-top: 1px solid #fff;
+        width: 33%;
+    }
+    .reloj .row h2 {
+        position: absolute;
+        color: #fff;
+        top: 52%;
+        left: 65%;
+        font-size: 18px;
+    }
+
+    .reloj .row .led h4 {
+        color: #fff;
+        position: absolute;
+        top: 39%;
+        left: 54%;
+        font-size: 10px;
+        font-weight: 100;
+        border-top: 1px solid #fff;
+        width: 33%;
+    }
+    .reloj .row .led h2 {
+        position: absolute;
+        color: #fff;
+        top: 51%;
+        left: 57%;
+        font-size: 18px;
+    }
+
+}
+
+
+
+
+
+
