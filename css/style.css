@@ -250,6 +250,10 @@ body .catalogo {
     cursor: pointer;
 }
 
+#recomendados .empresa {
+    width: 90%;
+    padding: 0 3% 0 12%;
+}
 
 
 
